@@ -1,5 +1,9 @@
-package com.example.demo.domain;
+package com.example.demo.controller;
 
+import com.example.demo.domain.User;
+import com.example.demo.dto.requestdto.UserRegistrationRequestDto;
+import com.example.demo.service.UserService;
+import com.example.demo.dto.responsedto.UserSimpleResponseDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
