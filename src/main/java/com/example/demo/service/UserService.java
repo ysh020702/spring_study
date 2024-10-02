@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class UserService {
+    //TODO : 내가 만들 클래스, 이 클래스의 인스턴스는 스프링이 알아서 만들어 줌
     private final UserRepository userRepository;
 
     @Autowired
